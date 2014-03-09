@@ -11,7 +11,7 @@
 		88266A5618CC001B0028E52F /* JCViewOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F938C18CBF03D0066EB6F /* JCViewOrientations.m */; };
 		885F937218CBED2F0066EB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935718CBED2F0066EB6F /* Foundation.framework */; };
 		885F937318CBED2F0066EB6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935B18CBED2F0066EB6F /* UIKit.framework */; };
-		885F937D18CBED2F0066EB6F /* Orientation_RatiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F937C18CBED2F0066EB6F /* Orientation_RatiosTests.m */; };
+		885F937D18CBED2F0066EB6F /* OrientationRatiosSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F937C18CBED2F0066EB6F /* OrientationRatiosSpec.m */; };
 		885F938718CBEE570066EB6F /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F938618CBEE570066EB6F /* Kiwi.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,7 @@
 		885F935B18CBED2F0066EB6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		885F936F18CBED2F0066EB6F /* RatiosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatiosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		885F937018CBED2F0066EB6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		885F937C18CBED2F0066EB6F /* Orientation_RatiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Orientation_RatiosTests.m; sourceTree = "<group>"; };
+		885F937C18CBED2F0066EB6F /* OrientationRatiosSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationRatiosSpec.m; sourceTree = "<group>"; };
 		885F938618CBEE570066EB6F /* Kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kiwi.framework; path = tools/kiwi/Kiwi.framework; sourceTree = SOURCE_ROOT; };
 		885F938818CBEE690066EB6F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		885F938B18CBF03D0066EB6F /* JCViewOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCViewOrientations.h; sourceTree = SOURCE_ROOT; };
@@ -78,7 +78,7 @@
 		885F937618CBED2F0066EB6F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				885F937C18CBED2F0066EB6F /* Orientation_RatiosTests.m */,
+				885F937C18CBED2F0066EB6F /* OrientationRatiosSpec.m */,
 				885F937718CBED2F0066EB6F /* Supporting Files */,
 			);
 			path = Tests;
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88266A5618CC001B0028E52F /* JCViewOrientations.m in Sources */,
-				885F937D18CBED2F0066EB6F /* Orientation_RatiosTests.m in Sources */,
+				885F937D18CBED2F0066EB6F /* OrientationRatiosSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

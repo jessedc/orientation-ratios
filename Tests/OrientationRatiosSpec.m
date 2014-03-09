@@ -5,7 +5,7 @@
 #import "Kiwi.h"
 #import "JCViewOrientations.h"
 
-SPEC_BEGIN(Test)
+SPEC_BEGIN(OrientationRatioSpec)
 
 describe(@"View Orientation For Size", ^{
 
