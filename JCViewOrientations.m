@@ -3,6 +3,7 @@
 //
 
 #import "JCViewOrientations.h"
+#import <tgmath.h>
 
 JCViewOrientation JCViewOrientationForSize(CGSize viewSize)
 {
@@ -20,8 +21,8 @@ CGSize JCSizeRestrainedToViewAspectRatio(CGSize size, CGSize constraint, JCViewA
     CGFloat widthRatio = constraint.width / size.width;
     CGFloat heightRatio = constraint.height / size.height;
 
-    CGFloat heightToFit = ceilf(size.height * widthRatio);
-    CGFloat widthToFit = ceilf(size.width * heightRatio);
+    CGFloat heightToFit = ceil(size.height * widthRatio);
+    CGFloat widthToFit = ceil(size.width * heightRatio);
 
     if (aspectRatio == JCViewAspectRatioFill)
     {
