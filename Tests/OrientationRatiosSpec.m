@@ -2,7 +2,6 @@
 //  Copyright (c) 2014 JCMultimedia. All rights reserved.
 //
 
-#import "Kiwi.h"
 #import "JCViewOrientations.h"
 
 SPEC_BEGIN(OrientationRatioSpec)
