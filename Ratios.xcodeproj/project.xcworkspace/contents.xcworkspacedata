@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Orientation Ratios.xcodeproj">
+      location = "self:Ratios.xcodeproj">
    </FileRef>
 </Workspace>
