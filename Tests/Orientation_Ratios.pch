@@ -1,0 +1,15 @@
+//
+//  Orientation_Ratios.pch
+//  Orientation Ratios
+//
+//  Created by Jesse Collis on 9/03/2014.
+//  Copyright (c) 2014 JCMultimedia. All rights reserved.
+//
+
+#ifndef Orientation_Ratios_Orientation_Ratios_pch
+#define Orientation_Ratios_Orientation_Ratios_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif

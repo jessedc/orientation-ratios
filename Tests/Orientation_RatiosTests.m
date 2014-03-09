@@ -10,13 +10,16 @@ SPEC_BEGIN(Test)
 describe(@"View Orientation For Size", ^{
 
     it(@"width larger than height should be landscape", ^{
-        [[theValue(JCViewOrientationForSize(CGSizeMake(100,50))) should] equal:theValue(JCViewOrientationLandscape)];
+        [[@(JCViewOrientationForSize(CGSizeMake(100,50))) should] equal:@(JCViewOrientationLandscape)];
     });
 
     it(@"height larger than width should be portrait", ^{
         [[theValue(JCViewOrientationForSize(CGSizeMake(50,100))) should] equal:theValue(JCViewOrientationPortrait)];
     });
 
+    it(@"height is equal to the width should be classified as landscape", ^{
+        [[theValue(JCViewOrientationForSize(CGSizeMake(50, 50))) should] equal:theValue(JCViewOrientationLandscape)];
+    });
 
 });
 

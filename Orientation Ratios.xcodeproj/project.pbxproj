@@ -8,42 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		88266A4418CBF7F00028E52F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F938818CBEE690066EB6F /* SenTestingKit.framework */; };
-		885F935818CBED2F0066EB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935718CBED2F0066EB6F /* Foundation.framework */; };
-		885F935A18CBED2F0066EB6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935918CBED2F0066EB6F /* CoreGraphics.framework */; };
-		885F935C18CBED2F0066EB6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935B18CBED2F0066EB6F /* UIKit.framework */; };
-		885F936218CBED2F0066EB6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885F936018CBED2F0066EB6F /* InfoPlist.strings */; };
-		885F936418CBED2F0066EB6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F936318CBED2F0066EB6F /* main.m */; };
-		885F936818CBED2F0066EB6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F936718CBED2F0066EB6F /* AppDelegate.m */; };
-		885F936A18CBED2F0066EB6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885F936918CBED2F0066EB6F /* Images.xcassets */; };
+		88266A5618CC001B0028E52F /* JCViewOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F938C18CBF03D0066EB6F /* JCViewOrientations.m */; };
 		885F937218CBED2F0066EB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935718CBED2F0066EB6F /* Foundation.framework */; };
 		885F937318CBED2F0066EB6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F935B18CBED2F0066EB6F /* UIKit.framework */; };
 		885F937D18CBED2F0066EB6F /* Orientation_RatiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F937C18CBED2F0066EB6F /* Orientation_RatiosTests.m */; };
 		885F938718CBEE570066EB6F /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F938618CBEE570066EB6F /* Kiwi.framework */; };
-		885F938D18CBF03D0066EB6F /* JCViewOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F938C18CBF03D0066EB6F /* JCViewOrientations.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		885F937418CBED2F0066EB6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 885F934C18CBED2F0066EB6F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 885F935318CBED2F0066EB6F;
-			remoteInfo = "Orientation Ratios";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		885F935418CBED2F0066EB6F /* Orientation Ratios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orientation Ratios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88266A5718CC018B0028E52F /* Orientation_Ratios.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Orientation_Ratios.pch; sourceTree = "<group>"; };
 		885F935718CBED2F0066EB6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		885F935918CBED2F0066EB6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		885F935B18CBED2F0066EB6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		885F935F18CBED2F0066EB6F /* Orientation Ratios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orientation Ratios-Info.plist"; sourceTree = "<group>"; };
-		885F936118CBED2F0066EB6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		885F936318CBED2F0066EB6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		885F936518CBED2F0066EB6F /* Orientation Ratios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orientation Ratios-Prefix.pch"; sourceTree = "<group>"; };
-		885F936618CBED2F0066EB6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		885F936718CBED2F0066EB6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		885F936918CBED2F0066EB6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		885F936F18CBED2F0066EB6F /* Orientation RatiosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orientation RatiosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885F937018CBED2F0066EB6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		885F937818CBED2F0066EB6F /* Orientation RatiosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orientation RatiosTests-Info.plist"; sourceTree = "<group>"; };
@@ -56,16 +32,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		885F935118CBED2F0066EB6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				885F935A18CBED2F0066EB6F /* CoreGraphics.framework in Frameworks */,
-				885F935C18CBED2F0066EB6F /* UIKit.framework in Frameworks */,
-				885F935818CBED2F0066EB6F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		885F936C18CBED2F0066EB6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				885F938A18CBEFB20066EB6F /* New Group */,
-				885F935D18CBED2F0066EB6F /* Demo */,
 				885F937618CBED2F0066EB6F /* Tests */,
 				885F935618CBED2F0066EB6F /* Frameworks */,
 				885F935518CBED2F0066EB6F /* Products */,
@@ -94,7 +59,6 @@
 		885F935518CBED2F0066EB6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				885F935418CBED2F0066EB6F /* Orientation Ratios.app */,
 				885F936F18CBED2F0066EB6F /* Orientation RatiosTests.octest */,
 			);
 			name = Products;
@@ -113,28 +77,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		885F935D18CBED2F0066EB6F /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				885F936618CBED2F0066EB6F /* AppDelegate.h */,
-				885F936718CBED2F0066EB6F /* AppDelegate.m */,
-				885F936918CBED2F0066EB6F /* Images.xcassets */,
-				885F935E18CBED2F0066EB6F /* Supporting Files */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		885F935E18CBED2F0066EB6F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				885F935F18CBED2F0066EB6F /* Orientation Ratios-Info.plist */,
-				885F936018CBED2F0066EB6F /* InfoPlist.strings */,
-				885F936318CBED2F0066EB6F /* main.m */,
-				885F936518CBED2F0066EB6F /* Orientation Ratios-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		885F937618CBED2F0066EB6F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +91,7 @@
 			children = (
 				885F937818CBED2F0066EB6F /* Orientation RatiosTests-Info.plist */,
 				885F937918CBED2F0066EB6F /* InfoPlist.strings */,
+				88266A5718CC018B0028E52F /* Orientation_Ratios.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,23 +109,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		885F935318CBED2F0066EB6F /* Orientation Ratios */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 885F938018CBED2F0066EB6F /* Build configuration list for PBXNativeTarget "Orientation Ratios" */;
-			buildPhases = (
-				885F935018CBED2F0066EB6F /* Sources */,
-				885F935118CBED2F0066EB6F /* Frameworks */,
-				885F935218CBED2F0066EB6F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Orientation Ratios";
-			productName = "Orientation Ratios";
-			productReference = 885F935418CBED2F0066EB6F /* Orientation Ratios.app */;
-			productType = "com.apple.product-type.application";
-		};
 		885F936E18CBED2F0066EB6F /* Orientation RatiosTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 885F938318CBED2F0066EB6F /* Build configuration list for PBXNativeTarget "Orientation RatiosTests" */;
@@ -194,7 +120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				885F937518CBED2F0066EB6F /* PBXTargetDependency */,
 			);
 			name = "Orientation RatiosTests";
 			productName = "Orientation RatiosTests";
@@ -227,22 +152,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				885F935318CBED2F0066EB6F /* Orientation Ratios */,
 				885F936E18CBED2F0066EB6F /* Orientation RatiosTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		885F935218CBED2F0066EB6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				885F936218CBED2F0066EB6F /* InfoPlist.strings in Resources */,
-				885F936A18CBED2F0066EB6F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		885F936D18CBED2F0066EB6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,43 +168,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		885F935018CBED2F0066EB6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				885F936818CBED2F0066EB6F /* AppDelegate.m in Sources */,
-				885F936418CBED2F0066EB6F /* main.m in Sources */,
-				885F938D18CBF03D0066EB6F /* JCViewOrientations.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		885F936B18CBED2F0066EB6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88266A5618CC001B0028E52F /* JCViewOrientations.m in Sources */,
 				885F937D18CBED2F0066EB6F /* Orientation_RatiosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		885F937518CBED2F0066EB6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 885F935318CBED2F0066EB6F /* Orientation Ratios */;
-			targetProxy = 885F937418CBED2F0066EB6F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		885F936018CBED2F0066EB6F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				885F936118CBED2F0066EB6F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		885F937918CBED2F0066EB6F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -373,39 +263,9 @@
 			};
 			name = Release;
 		};
-		885F938118CBED2F0066EB6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "demo/Orientation Ratios-Prefix.pch";
-				INFOPLIST_FILE = "demo/Orientation Ratios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		885F938218CBED2F0066EB6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "demo/Orientation Ratios-Prefix.pch";
-				INFOPLIST_FILE = "demo/Orientation Ratios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		885F938418CBED2F0066EB6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orientation Ratios.app/Orientation Ratios";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -413,7 +273,7 @@
 					"$(SRCROOT)/tools/kiwi",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "demo/Orientation Ratios-Prefix.pch";
+				GCC_PREFIX_HEADER = Tests/Orientation_Ratios.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,9 +281,8 @@
 					"$(SRCROOT)/tools/kiwi/Kiwi.framework/Headers",
 				);
 				INFOPLIST_FILE = "tests/Orientation RatiosTests-Info.plist";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -431,8 +290,6 @@
 		885F938518CBED2F0066EB6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Orientation Ratios.app/Orientation Ratios";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -440,16 +297,15 @@
 					"$(SRCROOT)/tools/kiwi",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "demo/Orientation Ratios-Prefix.pch";
+				GCC_PREFIX_HEADER = Tests/Orientation_Ratios.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/tools/kiwi/Kiwi.framework/Headers",
 				);
 				INFOPLIST_FILE = "tests/Orientation RatiosTests-Info.plist";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -462,15 +318,6 @@
 			buildConfigurations = (
 				885F937E18CBED2F0066EB6F /* Debug */,
 				885F937F18CBED2F0066EB6F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		885F938018CBED2F0066EB6F /* Build configuration list for PBXNativeTarget "Orientation Ratios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				885F938118CBED2F0066EB6F /* Debug */,
-				885F938218CBED2F0066EB6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
