@@ -24,16 +24,45 @@ describe(@"View Orientation For Size", ^{
 
 describe(@"size constrained with size", ^{
 
-    __block CGSize size;
+    __block CGSize originalSize;
+    __block CGSize constrainedSize;
+    __block CGSize derrivedSize;
 
-    it(@"should keep the ratio of the original image", ^{
-        size = JCSizeRestrainedToViewAspectRatio(CGSizeMake(200, 10), CGSizeMake(10, 200), JCViewAspectRatioFit);
-        [[theValue(size.width) should] equal:theValue(10)];
-        [[theValue(size.height) should] equal:theValue(10)];
-
-
-        [[theValue(size.width / size.height) should] equal:theValue(200.f/10.f)];
+    beforeEach(^{
+        originalSize = CGSizeMake(20, 10);
+        constrainedSize = CGSizeMake(10, 20);
     });
+
+    context(@"Aspect ratio fit", ^{
+        beforeEach(^{
+            derrivedSize = JCSizeRestrainedToViewAspectRatio(originalSize, constrainedSize, JCViewAspectRatioFit);
+        });
+
+        it(@"should keep the ratio of the original image", ^{
+            [[theValue(derrivedSize.width / derrivedSize.height) should] equal:theValue(originalSize.width / originalSize.height)];
+        });
+
+        it(@"should constrain the width", ^{
+            [[theValue(derrivedSize.width) should] equal:theValue(10)];
+            [[theValue(derrivedSize.height) should] equal:theValue(5)];
+        });
+    });
+
+    context(@"Aspect ratio fill", ^{
+        beforeEach(^{
+            derrivedSize = JCSizeRestrainedToViewAspectRatio(originalSize, constrainedSize, JCViewAspectRatioFill);
+        });
+
+        it(@"should keep the ratio of the original image", ^{
+            [[theValue(derrivedSize.width / derrivedSize.height) should] equal:theValue(originalSize.width / originalSize.height)];
+        });
+
+        it(@"should increase the height, also increasing the width", ^{
+            [[theValue(derrivedSize.width) should] equal:theValue(40)];
+            [[theValue(derrivedSize.height) should] equal:theValue(20)];
+        });
+    });
+
 
 });
 
