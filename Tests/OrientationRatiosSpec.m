@@ -23,4 +23,19 @@ describe(@"View Orientation For Size", ^{
 
 });
 
+describe(@"size constrained with size", ^{
+
+    __block CGSize size;
+
+    it(@"should keep the ratio of the original image", ^{
+        size = JCSizeRestrainedToViewAspectRatio(CGSizeMake(200, 10), CGSizeMake(10, 200), JCViewAspectRatioFit);
+        [[theValue(size.width) should] equal:theValue(10)];
+        [[theValue(size.height) should] equal:theValue(10)];
+
+
+        [[theValue(size.width / size.height) should] equal:theValue(200.f/10.f)];
+    });
+
+});
+
 SPEC_END

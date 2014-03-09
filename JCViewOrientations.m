@@ -14,3 +14,37 @@ JCViewOrientation JCViewOrientationForSize(CGSize viewSize)
     }
     return JCViewOrientationLandscape;
 };
+
+CGSize JCSizeRestrainedToViewAspectRatio(CGSize size, CGSize constraint, JCViewAspectRatio aspectRatio)
+{
+    CGFloat widthRatio = constraint.width / size.width;
+    CGFloat heightRatio = constraint.height / size.height;
+
+    CGFloat heightToFit = ceil(size.height * widthRatio);
+    CGFloat widthToFit = ceil(size.width * heightRatio);
+
+    if (aspectRatio == JCViewAspectRatioFill)
+    {
+        if (widthRatio > heightRatio)
+        {
+            size = CGSizeMake(constraint.width, heightToFit);
+        }
+        else
+        {
+            size = CGSizeMake(widthToFit, constraint.height);
+        }
+    }
+    else if (aspectRatio == JCViewAspectRatioFit)
+    {
+        if (widthRatio < heightRatio)
+        {
+            size = CGSizeMake(constraint.width, heightToFit);
+        }
+        else
+        {
+            size = CGSizeMake(widthToFit, constraint.height);
+        }
+    }
+
+    return size;
+}

@@ -31,3 +31,7 @@ typedef NS_ENUM(NSInteger, JCViewAspectRatio)
 
 JCViewOrientation JCViewOrientationForSize(CGSize viewSize);
 
+/** Returns the constrained size
+ *
+ */
+CGSize JCSizeRestrainedToViewAspectRatio(CGSize size, CGSize constraint, JCViewAspectRatio aspectRatio);
