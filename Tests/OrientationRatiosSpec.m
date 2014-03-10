@@ -57,7 +57,7 @@ describe(@"size constrained with size", ^{
             [[theValue(derrivedSize.width / derrivedSize.height) should] equal:theValue(originalSize.width / originalSize.height)];
         });
 
-        it(@"should increase the height, also increasing the width", ^{
+        it(@"should scale up the height and the width", ^{
             [[theValue(derrivedSize.width) should] equal:theValue(40)];
             [[theValue(derrivedSize.height) should] equal:theValue(20)];
         });
